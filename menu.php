@@ -12,7 +12,7 @@ class Menu {
 
         // Main Menu
         if ($text == "") {
-            echo "CON Welcome to USSD Service\n1. Register\n2. Send Money\n3. Check Balance\n99. Exit";
+            echo "CON Welcome to XYZ MOMO Service\n1. Register\n2. Send Money\n3. Check Balance\n99. Exit";
         }
 
         // Register
