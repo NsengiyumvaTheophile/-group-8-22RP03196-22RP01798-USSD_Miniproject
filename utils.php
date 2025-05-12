@@ -4,7 +4,7 @@ define('DB_USERNAME', 'root'); // your MySQL username
 define('DB_PASSWORD', ''); // your MySQL password
 define('DB_NAME', 'ussd_miniproject'); // your database name
 
-// Create connection
+// Create connectio
 $conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Check connection
