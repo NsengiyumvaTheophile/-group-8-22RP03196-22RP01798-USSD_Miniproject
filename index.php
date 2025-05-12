@@ -1,5 +1,5 @@
 <?php
-// Include necessary files
+// Include necessary file
 require_once 'utils.php';
 require_once 'sms.php';
 require_once 'menu.php';
