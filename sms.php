@@ -10,6 +10,7 @@ class Sms {
         $this->phone = $phone;
         $this->AT = new AfricasTalking("sandbox", "atsk_08351c8e295057d88765484516b4ff384f224fd4b59033a02f67d918bdc73df2c9f4b57c");
     }
+    // send sms
 
     public function sendSMS($message, $recipients) {
         $sms = $this->AT->sms();
